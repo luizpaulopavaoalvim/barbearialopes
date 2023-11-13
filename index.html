@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,500&display=swap"
+        rel="stylesheet">
+        <link rel="icon" href="assets/img/LOGO-CAPA.png">
+    <title>Página Inicial | Barbeaaria Lopes</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="assets/img/LogomarcaHorizontal.png" alt="">
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <a class="link_navegacao" href="#início" class="topo_link"><li>Início</li></a>
+                    <a class="link_navegacao" href="#sobre" class="topo_link"><li>Sobre</li></a>
+                    <a class="link_navegacao" href="#servicos" class="topo_link"><li>Serviços</li></a>
+                    <a class="link_navegacao" href="#contatos" class="topo_link"><li>Contato</li></a>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <a class="link_navegacao" href="#início" class="topo_link"><li>Início</li></a>
+                <a class="link_navegacao" href="#sobre" class="topo_link"><li>Sobre</li></a>
+                <a class="link_navegacao" href="#servicos" class="topo_link"><li>Serviços</li></a>
+                <a class="link_navegacao" href="#contatos" class="topo_link"><li>Contato</li></a>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div id="inicio">
+            <aside id="apresentacao">
+                <h3>Olá, seja bem-vindo a</h3>
+                <h2><span>Barbearia Lopes</span></h2>
+                <p>Seu estilo, nossa expertise. Venha para a Barbearia Lopes que entende de cortes,
+                    barbas e cuidados masculinos. Sua imagem merece o melhor. <span>Agende sua transformação
+                        hoje!</span>
+                </p>
+                <form>
+                    <a href="https://api.whatsapp.com/send?phone=5521993727216&text=Ol%C3%A1%20Kaio,%20gostaria%20de%20agendar%20o%20dia%20e%20um%20hor%C3%A1rio!"
+                        target="_blank"><input type="button" value="AGENDAR HORÁRIO"></a>
+                </form>
+            </aside>
+
+            <article id="foto-capa">
+                <img src="assets/img/LOGO-CAPA.png" alt="">
+            </article>
+        </div>
+    </main>
+
+    <section>
+        <div id="sobre">
+            <div class="sobre-texto">
+                <h3>Sobre</h3>
+                <p>Bem-vindo à Barbearia Lopes, onde desde 2017 tradição e estilo se encontram.
+                    Com uma equipe apaixonada e experiente, proporcionamos cortes de cabelo e barba preciosos
+                    e personalizados para homens modernos que buscam qualidade e elegância. Venha vivenciar
+                    o charme de uma barbearia clássica, onde cada cliente é tratado com cuidado e atenção, garantindo
+                    uma experiência única de beleza e bem-estar.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+
+        <div id="card-servicos">
+            <h3>Como podemos te ajudar?</h3>
+        </div>
+
+        <div class="containers">
+            <div class="card">
+                <h1 class="servico-titulo">Cortes de Cabelo</h1>
+                <p>Na Barbearia Lopes, oferecemos os melhores cortes de cabelo masculino,
+                    com profissionais experientes e técnicas de visagismo para garantir que o
+                    seu corte fique perfeito para o seu estilo e personalidade.</p>
+            </div>
+
+            <div class="card">
+                <h1 class="servico-titulo">Tratamentos Capilares</h1>
+                <p>Além dos cortes, oferecemos tratamentos capilares para cuidar do seu cabelo e
+                    deixá-lo mais saudável e bonito.
+                </p>
+            </div>
+
+            <div class="card">
+                <h1 class="servico-titulo">Modelagem de Barba</h1>
+                <p>A barba é a marca registrada de muitos homens e aqui na Don Castro Barbearia,
+                    garantimos que a sua barba esteja sempre impecável.
+                    Oferecemos serviços de barba completa, barba desenhada,
+                    barba relaxante e muito mais.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contatos">
+        <h1>Onde nos encontrar?</h1>
+        <p>A barbearia Lopes está localizada na Vila do Pinheiro, B1, n° 137,
+            Maré, Rio de Janeiro.
+        </p>
+        <p>(21) 99372-7216</p>
+        <p>Venha nos visitar e surpreenda-se com o que temos a oferecer.
+        </p>
+        <p><span>De segunda à sábado das 10:00hrs às 22:00hrs</span></p>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.2443563749807!2d-43.237255825369985!3d-22.867430036464278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99794ada71750d%3A0x5e0f3d936b616322!2sVia%20B%20Um%2C%20137%20-%20Mar%C3%A9%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2021046-345!5e0!3m2!1spt-BR!2sbr!4v1696339024609!5m2!1spt-BR!2sbr"
+            width="800" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <footer id="rodape">
+        <p>Copyright © 2023, Barbearia Lopes - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+<script src="assets/javascript/script.js"></script>
+</html>
